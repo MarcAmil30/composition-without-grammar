@@ -1,0 +1,386 @@
+{
+  "evo1": {
+    "counts": {
+      "A": 59956303,
+      "C": 74264181,
+      "G": 74206872,
+      "T": 60051318
+    },
+    "proportions": {
+      "A": 0.2233186796803086,
+      "C": 0.2766110987273425,
+      "G": 0.27639764043232723,
+      "T": 0.22367258116002167
+    },
+    "n_bases": 268478674,
+    "metadata": {
+      "repository": "LongSafari/open-genome",
+      "definition": "stratified stage-1 sample: one random row group from each of 12 GTDB shards and IMG/PR",
+      "seed": 20260820,
+      "details": [
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_0.parquet",
+          "row_group": 936,
+          "row_groups": 1000,
+          "valid_bases": 10336389
+        },
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_1.parquet",
+          "row_group": 959,
+          "row_groups": 1000,
+          "valid_bases": 13251758
+        },
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_2.parquet",
+          "row_group": 511,
+          "row_groups": 1000,
+          "valid_bases": 47760569
+        },
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_3.parquet",
+          "row_group": 591,
+          "row_groups": 1000,
+          "valid_bases": 27947017
+        },
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_4.parquet",
+          "row_group": 702,
+          "row_groups": 1000,
+          "valid_bases": 15879178
+        },
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_5.parquet",
+          "row_group": 255,
+          "row_groups": 1000,
+          "valid_bases": 15175285
+        },
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_6.parquet",
+          "row_group": 992,
+          "row_groups": 1000,
+          "valid_bases": 21232998
+        },
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_7.parquet",
+          "row_group": 720,
+          "row_groups": 1000,
+          "valid_bases": 10840370
+        },
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_8.parquet",
+          "row_group": 440,
+          "row_groups": 1000,
+          "valid_bases": 30419344
+        },
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_9.parquet",
+          "row_group": 940,
+          "row_groups": 1000,
+          "valid_bases": 10984119
+        },
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_10.parquet",
+          "row_group": 626,
+          "row_groups": 1000,
+          "valid_bases": 28770641
+        },
+        {
+          "path": "stage1/gtdb/gtdb_train_shard_11.parquet",
+          "row_group": 677,
+          "row_groups": 987,
+          "valid_bases": 5972456
+        },
+        {
+          "path": "stage1/imgpr/imgpr_train.parquet",
+          "row_group": 110,
+          "row_groups": 213,
+          "valid_bases": 29908550
+        }
+      ]
+    }
+  },
+  "evo2": {
+    "counts": null,
+    "proportions": {
+      "A": 0.26749855756466306,
+      "C": 0.23235080311345047,
+      "G": 0.23294117132177636,
+      "T": 0.26720946800011036
+    },
+    "n_bases": 205536482,
+    "metadata": {
+      "repository": "arcinstitute/opengenome2",
+      "definition": "phase-one source-stratified sample, combined using published dataloader weights",
+      "seed": 20260820,
+      "sampled_valid_bases": 205536482,
+      "target_valid_bases": 200000000,
+      "categories": {
+        "gtdb_v220_imgpr": {
+          "weight": 0.1790688420214883,
+          "counts": {
+            "A": 9023811,
+            "C": 9050383,
+            "G": 9192926,
+            "T": 8979747
+          },
+          "proportions": {
+            "A": 0.24895423375487874,
+            "C": 0.24968731780321868,
+            "G": 0.25361987837459166,
+            "T": 0.24773857006731093
+          },
+          "shards": [
+            {
+              "path": "json/pretraining_or_both_phases/gtdb_v220_imgpr/data_gtdb_train_chunk7.jsonl.gz",
+              "valid_bases": 11954329
+            },
+            {
+              "path": "json/pretraining_or_both_phases/gtdb_v220_imgpr/data_gtdb_train_chunk23.jsonl.gz",
+              "valid_bases": 12297189
+            },
+            {
+              "path": "json/pretraining_or_both_phases/gtdb_v220_imgpr/data_gtdb_train_chunk34.jsonl.gz",
+              "valid_bases": 11995349
+            }
+          ]
+        },
+        "metagenomes": {
+          "weight": 0.23875845602865103,
+          "counts": {
+            "A": 11461542,
+            "C": 12421145,
+            "G": 12413395,
+            "T": 11473790
+          },
+          "proportions": {
+            "A": 0.2399324411001143,
+            "C": 0.2600204790165651,
+            "G": 0.2598582428690619,
+            "T": 0.2401888370142587
+          },
+          "shards": [
+            {
+              "path": "json/pretraining_or_both_phases/metagenomes/data_metagenomics_train_chunk80.jsonl.gz",
+              "valid_bases": 15918270
+            },
+            {
+              "path": "json/pretraining_or_both_phases/metagenomes/data_metagenomics_train_chunk6.jsonl.gz",
+              "valid_bases": 15932986
+            },
+            {
+              "path": "json/pretraining_or_both_phases/metagenomes/data_metagenomics_train_chunk62.jsonl.gz",
+              "valid_bases": 15918616
+            }
+          ]
+        },
+        "imgvr_untagged": {
+          "weight": 0.02984480700358138,
+          "counts": {
+            "A": 1617483,
+            "C": 1394835,
+            "G": 1402885,
+            "T": 1612667
+          },
+          "proportions": {
+            "A": 0.2683340881604945,
+            "C": 0.23139765787915134,
+            "G": 0.2327331213181439,
+            "T": 0.2675351326422103
+          },
+          "shards": [
+            {
+              "path": "json/pretraining_or_both_phases/imgvr_untagged/data_imgvr_train_chunk4.jsonl.gz",
+              "valid_bases": 1996732
+            },
+            {
+              "path": "json/pretraining_or_both_phases/imgvr_untagged/data_imgvr_train_chunk3.jsonl.gz",
+              "valid_bases": 2038629
+            },
+            {
+              "path": "json/pretraining_or_both_phases/imgvr_untagged/data_imgvr_train_chunk1.jsonl.gz",
+              "valid_bases": 1992509
+            }
+          ]
+        },
+        "mrna_splice_promoter": {
+          "weight": 0.08953442101074414,
+          "counts": {
+            "A": 4999948,
+            "C": 3954037,
+            "G": 3950197,
+            "T": 5005069
+          },
+          "proportions": {
+            "A": 0.2791824180698567,
+            "C": 0.22078181829044666,
+            "G": 0.22056740396346,
+            "T": 0.2794683596762366
+          },
+          "shards": [
+            {
+              "path": "json/pretraining_or_both_phases/mrna_splice_promoter/data_mrna_stitch_train_chunk4.jsonl.gz",
+              "valid_bases": 5970081
+            },
+            {
+              "path": "json/pretraining_or_both_phases/mrna_splice_promoter/data_mrna_stitch_train_chunk15.jsonl.gz",
+              "valid_bases": 5968999
+            },
+            {
+              "path": "json/pretraining_or_both_phases/mrna_splice_promoter/data_mrna_stitch_train_chunk3.jsonl.gz",
+              "valid_bases": 5970171
+            }
+          ]
+        },
+        "mrna": {
+          "weight": 0.08953442101074414,
+          "counts": {
+            "A": 4796958,
+            "C": 4164845,
+            "G": 4159583,
+            "T": 4816262
+          },
+          "proportions": {
+            "A": 0.2674240234840153,
+            "C": 0.2321845651113234,
+            "G": 0.23189121561533596,
+            "T": 0.2685001957893253
+          },
+          "shards": [
+            {
+              "path": "json/pretraining_or_both_phases/mrna/data_mrna_train_chunk8.jsonl.gz",
+              "valid_bases": 5970077
+            },
+            {
+              "path": "json/pretraining_or_both_phases/mrna/data_mrna_train_chunk4.jsonl.gz",
+              "valid_bases": 5996072
+            },
+            {
+              "path": "json/pretraining_or_both_phases/mrna/data_mrna_train_chunk6.jsonl.gz",
+              "valid_bases": 5971499
+            }
+          ]
+        },
+        "eukaryotic_genic_windows": {
+          "weight": 0.34818941504178275,
+          "counts": {
+            "A": 21776920,
+            "C": 15536052,
+            "G": 15519842,
+            "T": 21725337
+          },
+          "proportions": {
+            "A": 0.2920796681237441,
+            "C": 0.20837496359049998,
+            "G": 0.2081575494006014,
+            "T": 0.29138781888515447
+          },
+          "shards": [
+            {
+              "path": "json/pretraining_or_both_phases/eukaryotic_genic_windows/windows_5kb_train_chunk33.jsonl.gz",
+              "valid_bases": 23379051
+            },
+            {
+              "path": "json/pretraining_or_both_phases/eukaryotic_genic_windows/windows_5kb_train_chunk13.jsonl.gz",
+              "valid_bases": 26763963
+            },
+            {
+              "path": "json/pretraining_or_both_phases/eukaryotic_genic_windows/windows_5kb_train_chunk8.jsonl.gz",
+              "valid_bases": 24415137
+            }
+          ]
+        },
+        "organelle": {
+          "weight": 0.004974134500596897,
+          "counts": {
+            "A": 326956,
+            "C": 195424,
+            "G": 196616,
+            "T": 336467
+          },
+          "proportions": {
+            "A": 0.30977495184577764,
+            "C": 0.1851547614648737,
+            "G": 0.18628412365000005,
+            "T": 0.3187861630393486
+          },
+          "shards": [
+            {
+              "path": "json/pretraining_or_both_phases/organelle/data_organelle_train_chunk1.jsonl.gz",
+              "valid_bases": 1055463
+            }
+          ]
+        },
+        "ncrna": {
+          "weight": 0.01989653800238759,
+          "counts": {
+            "A": 1078576,
+            "C": 915319,
+            "G": 915501,
+            "T": 1071564
+          },
+          "proportions": {
+            "A": 0.27093364414613563,
+            "C": 0.22992418914030788,
+            "G": 0.22996990675615933,
+            "T": 0.2691722599573972
+          },
+          "shards": [
+            {
+              "path": "json/pretraining_or_both_phases/ncrna/data_ncrna_train_chunk4.jsonl.gz",
+              "valid_bases": 1326603
+            },
+            {
+              "path": "json/pretraining_or_both_phases/ncrna/data_ncrna_train_chunk3.jsonl.gz",
+              "valid_bases": 1327144
+            },
+            {
+              "path": "json/pretraining_or_both_phases/ncrna/data_ncrna_train_chunk2.jsonl.gz",
+              "valid_bases": 1327213
+            }
+          ]
+        },
+        "promoters": {
+          "weight": 0.00019896538002387587,
+          "counts": {
+            "A": 13600,
+            "C": 11591,
+            "G": 11511,
+            "T": 13698
+          },
+          "proportions": {
+            "A": 0.2698412698412698,
+            "C": 0.22998015873015873,
+            "G": 0.22839285714285715,
+            "T": 0.2717857142857143
+          },
+          "shards": [
+            {
+              "path": "json/pretraining_or_both_phases/promoters/data_promoters_train_chunk1.jsonl.gz",
+              "valid_bases": 50400
+            }
+          ]
+        }
+      }
+    }
+  },
+  "hyenadna": {
+    "counts": {
+      "A": 898285419,
+      "C": 623727342,
+      "G": 626335137,
+      "T": 900967885
+    },
+    "proportions": {
+      "A": 0.2945858949761649,
+      "C": 0.20454665452403883,
+      "G": 0.20540186112957917,
+      "T": 0.2954655893702171
+    },
+    "n_bases": 3049315783,
+    "metadata": {
+      "source": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz",
+      "definition": "complete UCSC hg38 reference",
+      "fasta_records": 455
+    }
+  }
+}

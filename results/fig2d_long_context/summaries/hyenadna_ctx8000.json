@@ -1,0 +1,21 @@
+{
+  "model": "hyenadna",
+  "context_bp": 8000,
+  "n_genes": 680,
+  "n_generations": 14280,
+  "within_2_pct": 10.92436974789916,
+  "within_2_gene_bootstrap_95": [
+    10.406162464985993,
+    11.449579831932773
+  ],
+  "shuffle_within_2_pct": 11.617647058823529,
+  "shuffle_gene_bootstrap_95": [
+    11.07843137254902,
+    12.156862745098037
+  ],
+  "exact_pct": 2.0658263305322127,
+  "mean_abs_position_error": 10.97093837535014,
+  "mean_hamming_at_true": 4.760504201680672,
+  "score_file": "${ICBINB_ROOT}/data/benchmark/fig2d_long_context/scores/hyenadna/ctx8000_per_generation.csv.gz",
+  "score_sha256": "f6cf9189728b3e05ee86a6e871b943c0a3d4fc82593c1a25927479e69803d77f"
+}

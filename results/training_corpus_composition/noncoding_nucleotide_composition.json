@@ -1,0 +1,193 @@
+{
+  "evo1": {
+    "counts": {
+      "A": 7814118,
+      "C": 7578402,
+      "G": 7567852,
+      "T": 7827968
+    },
+    "proportions": {
+      "A": 0.253801211757438,
+      "C": 0.24614519652569772,
+      "G": 0.2458025343360506,
+      "T": 0.25425105738081366
+    },
+    "n_bases": 30788340,
+    "metadata": {
+      "input_valid_bases": 268478674,
+      "predicted_cds_bases": 237690334,
+      "noncoding_bases": 30788340,
+      "records": 13000,
+      "method": "Pyrodigal metagenomic-mode CDS complement",
+      "seed": 20260820
+    }
+  },
+  "evo2": {
+    "counts": null,
+    "proportions": {
+      "A": 0.2739023227594473,
+      "C": 0.22593727766455493,
+      "G": 0.22750495609584487,
+      "T": 0.27265544348015297
+    },
+    "n_bases": 18661145,
+    "metadata": {
+      "phase1_mixture_coverage": 0.47274174293672905,
+      "included_categories": [
+        "gtdb_v220_imgpr",
+        "imgvr_untagged",
+        "metagenomes",
+        "ncrna",
+        "organelle",
+        "promoters"
+      ],
+      "excluded_categories_no_cds_coordinates": [
+        "eukaryotic_genic_windows",
+        "mrna",
+        "mrna_splice_promoter"
+      ],
+      "method": "Pyrodigal CDS complement plus explicit promoter/ncRNA sources; weights renormalized",
+      "categories": {
+        "gtdb_v220_imgpr": {
+          "counts": {
+            "A": 1224760,
+            "C": 951882,
+            "G": 968680,
+            "T": 1217258
+          },
+          "proportions": {
+            "A": 0.2807421296572212,
+            "C": 0.21819244575457641,
+            "G": 0.22204291955677605,
+            "T": 0.27902250503142634
+          },
+          "input_valid_bases": 36246867,
+          "predicted_cds_bases": 31884287,
+          "noncoding_bases": 4362580,
+          "records": 2335,
+          "original_weight": 0.18
+        },
+        "imgvr_untagged": {
+          "counts": {
+            "A": 142020,
+            "C": 112269,
+            "G": 114570,
+            "T": 142868
+          },
+          "proportions": {
+            "A": 0.27753079278599724,
+            "C": 0.21939237132299058,
+            "G": 0.22388890951620688,
+            "T": 0.27918792637480533
+          },
+          "input_valid_bases": 6027870,
+          "predicted_cds_bases": 5516143,
+          "noncoding_bases": 511727,
+          "records": 592,
+          "original_weight": 0.03
+        },
+        "metagenomes": {
+          "counts": {
+            "A": 2479504,
+            "C": 2159970,
+            "G": 2156521,
+            "T": 2466911
+          },
+          "proportions": {
+            "A": 0.2676810063710028,
+            "C": 0.23318492058539728,
+            "G": 0.2328125752328697,
+            "T": 0.2663214978107302
+          },
+          "input_valid_bases": 47769872,
+          "predicted_cds_bases": 38506966,
+          "noncoding_bases": 9262906,
+          "records": 21847,
+          "original_weight": 0.24
+        },
+        "ncrna": {
+          "counts": {
+            "A": 1078576,
+            "C": 915319,
+            "G": 915501,
+            "T": 1071564
+          },
+          "proportions": {
+            "A": 0.27093364414613563,
+            "C": 0.22992418914030788,
+            "G": 0.22996990675615933,
+            "T": 0.2691722599573972
+          },
+          "input_valid_bases": 3980960,
+          "predicted_cds_bases": 0,
+          "noncoding_bases": 3980960,
+          "records": 4790,
+          "original_weight": 0.02
+        },
+        "organelle": {
+          "counts": {
+            "A": 155928,
+            "C": 88675,
+            "G": 89241,
+            "T": 158728
+          },
+          "proportions": {
+            "A": 0.31655879749559457,
+            "C": 0.18002444312709615,
+            "G": 0.18117351371982168,
+            "T": 0.32224324565748763
+          },
+          "input_valid_bases": 1055463,
+          "predicted_cds_bases": 562891,
+          "noncoding_bases": 492572,
+          "records": 10,
+          "original_weight": 0.005
+        },
+        "promoters": {
+          "counts": {
+            "A": 13600,
+            "C": 11591,
+            "G": 11511,
+            "T": 13698
+          },
+          "proportions": {
+            "A": 0.2698412698412698,
+            "C": 0.22998015873015873,
+            "G": 0.22839285714285715,
+            "T": 0.2717857142857143
+          },
+          "input_valid_bases": 50400,
+          "predicted_cds_bases": 0,
+          "noncoding_bases": 50400,
+          "records": 84,
+          "original_weight": 0.0002
+        }
+      }
+    }
+  },
+  "hyenadna": {
+    "counts": {
+      "A": 857538743,
+      "C": 591534564,
+      "G": 593988024,
+      "T": 860266449
+    },
+    "proportions": {
+      "A": 0.29536408148858756,
+      "C": 0.20374363792985165,
+      "G": 0.20458868891475973,
+      "T": 0.29630359166680104
+    },
+    "n_bases": 2903327780,
+    "metadata": {
+      "input_valid_bases": 2937655681,
+      "annotated_cds_bases": 34327901,
+      "noncoding_bases": 2903327780,
+      "fasta_records": 455,
+      "annotated_fasta_records": 25,
+      "method": "GENCODE-annotated hg38 chromosomes outside merged GENCODE v49 CDS intervals",
+      "hg38_source": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz",
+      "annotation_source": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_49/gencode.v49.annotation.gtf.gz"
+    }
+  }
+}

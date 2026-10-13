@@ -1,0 +1,28 @@
+
+==============================================================================
+ecoli: 1880 genes with all 7 conditions complete
+==============================================================================
+
+within-C0 null : JS 26.991 bits/gene | pairwise identity 25.59%
+
+ cond  JS(C0,Ci)   vs null  identity   vs null  T0.2 same     GC
+   C0     26.991    +0.000    25.59%    +0.00%     100.0%  0.440
+   C1     27.100    +0.109    25.59%    -0.00%       2.4%  0.437
+   C2     27.150    +0.159    25.58%    -0.01%       0.2%  0.435
+   C3     27.263    +0.272    25.50%    -0.09%       0.5%  0.440
+   C4     27.779    +0.787    25.54%    -0.05%       0.0%  0.449
+   C5     27.007    +0.016    25.59%    -0.00%      39.4%  0.440
+   C6     27.137    +0.146    25.58%    -0.01%       0.9%  0.437
+
+M3 — SD placement in the generations (chance median error ~9 bp)
+ cond   %SD>=4  median pos err  %within 2bp
+   C0    61.7%             2.0        71.1%
+   C1    62.5%             2.0        71.2%
+   C2    62.1%             2.0        70.9%
+   C3    61.7%             2.0        71.6%
+   C4    80.0%             1.0        77.9%
+   C5    62.1%             2.0        71.1%
+   C6    62.4%             2.0        71.0%
+ REAL    76.0%             0.0       100.0%   <- ceiling
+
+[wrote ${ICBINB_ROOT}/data/benchmark/cds_prompted/results/m2m3m4_ecoli.csv]

@@ -1,0 +1,21 @@
+{
+  "model": "evo2",
+  "context_bp": 2000,
+  "n_genes": 680,
+  "n_generations": 14280,
+  "within_2_pct": 15.532212885154062,
+  "within_2_gene_bootstrap_95": [
+    14.642857142857144,
+    16.45675770308123
+  ],
+  "shuffle_within_2_pct": 12.338935574229692,
+  "shuffle_gene_bootstrap_95": [
+    11.778711484593838,
+    12.871148459383752
+  ],
+  "exact_pct": 3.7675070028011204,
+  "mean_abs_position_error": 10.091526610644257,
+  "mean_hamming_at_true": 4.551680672268907,
+  "score_file": "${ICBINB_ROOT}/data/benchmark/fig2d_long_context/scores/evo2/ctx2000_per_generation.csv.gz",
+  "score_sha256": "0f9940c26cf98e6bf357385c98f1fed1c8ebc0f3001e2b86481bd24e6752fa97"
+}

@@ -1,0 +1,12 @@
+{
+  "model": "evo1",
+  "context_bp": 300,
+  "n_genes": 680,
+  "n_generations": 14280,
+  "within_2_pct": 10.904411764705884,
+  "within_2_gene_bootstrap_95": [
+    10.35294117647059,
+    11.485294117647058
+  ],
+  "imported_from_completed_figure2d": "results/upstream_only/fig2x2/panelD_context_tol2.csv"
+}

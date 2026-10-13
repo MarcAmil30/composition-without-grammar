@@ -1,0 +1,12 @@
+{
+  "model": "hyenadna",
+  "context_bp": 200,
+  "n_genes": 680,
+  "n_generations": 14280,
+  "within_2_pct": 12.176470588235292,
+  "within_2_gene_bootstrap_95": [
+    11.566176470588236,
+    12.75735294117647
+  ],
+  "imported_from_completed_figure2d": "results/upstream_only/fig2x2/panelD_context_tol2.csv"
+}

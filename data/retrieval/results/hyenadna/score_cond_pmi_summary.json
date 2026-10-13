@@ -1,0 +1,38 @@
+{
+  "name": "score_cond_pmi",
+  "higher_is_better": true,
+  "upstream_len": 200,
+  "n_candidates": 100,
+  "seed": 0,
+  "n_genes": 500,
+  "n_repeats": 20,
+  "top1": 0.009800000000000001,
+  "top1_ci95": [
+    0.0036000000000000003,
+    0.017702500000000003
+  ],
+  "top5": 0.053700000000000005,
+  "median_rank": 47.0,
+  "mean_rank": 47.9856,
+  "mrr": 0.054685984552545,
+  "fold_over_chance": 0.9800000000000001,
+  "chance_top1": 0.01,
+  "variance_decomposition": {
+    "between_candidate_frac": 3.6361857969069433e-10,
+    "between_query_frac": 0.9448396563529968,
+    "interaction_frac": 0.05516020208597183
+  },
+  "guard_true_vs_decoy": {
+    "true_mean": 0.0006226167897693813,
+    "decoy_mean": 2.4526118522771867e-06,
+    "gap_mean": 0.0006201641517691314,
+    "gap_median": 0.00012168148532509804,
+    "frac_true_higher": 0.518,
+    "wilcoxon_stat": 70265.0,
+    "wilcoxon_p_greater": 0.009048626575770782
+  },
+  "top1_reversed_direction": 0.0069,
+  "model": "hyenadna",
+  "scorer": "scoring",
+  "normalization": "pmi"
+}

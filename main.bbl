@@ -1,0 +1,183 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Belrose et~al.(2024)Belrose, Pope, Quirke, Mallen, and
+  Fern]{increasingcomplexity2024}
+Nora Belrose, Quintin Pope, Lucia Quirke, Alex~Troy Mallen, and Xiaoli Fern.
+\newblock Neural networks learn statistics of increasing complexity.
+\newblock In \emph{Proceedings of the 41st International Conference on Machine
+  Learning}, volume 235 of \emph{Proceedings of Machine Learning Research},
+  pages 3382--3409, 2024.
+\newblock URL \url{https://proceedings.mlr.press/v235/belrose24a.html}.
+
+\bibitem[Brixi et~al.(2026)Brixi, Durrant, Ku, et~al.]{brixi2025evo2}
+Garyk Brixi, Matthew~G. Durrant, Jerome Ku, et~al.
+\newblock Genome modelling and design across all domains of life with {Evo 2}.
+\newblock \emph{Nature}, 652:\penalty0 1349--1361, 2026.
+\newblock \doi{10.1038/s41586-026-10176-5}.
+
+\bibitem[Cambray et~al.(2018)Cambray, Guimaraes, and
+  Arkin]{cambray2018translation}
+Guillaume Cambray, Joao~C. Guimaraes, and Adam~P. Arkin.
+\newblock Evaluation of 244,000 synthetic sequences reveals design principles
+  to optimize translation in {Escherichia coli}.
+\newblock \emph{Nature Biotechnology}, 36\penalty0 (10):\penalty0 1005--1015,
+  2018.
+\newblock \doi{10.1038/nbt.4238}.
+
+\bibitem[Cheng and Zhang(2026)]{invariance2026}
+Bryan Cheng and Jasper Zhang.
+\newblock The mechanistic invariance test: Genomic language models fail to
+  learn positional regulatory logic.
+\newblock \emph{arXiv preprint arXiv:2604.06549}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2604.06549}.
+
+\bibitem[Dufault et~al.(2026)Dufault, Xu, and Moses]{dufault2026c3p}
+Cameron Dufault, Scott Xu, and Alan~M. Moses.
+\newblock {C3P}: Contrastive promoter-protein pretraining yields
+  representations capturing bacterial gene regulation.
+\newblock \emph{arXiv preprint arXiv:2605.25242}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.25242}.
+
+\bibitem[Klein et~al.(2021)Klein, Teufel, Weile, and Sobetzko]{spacer2021}
+Carlo~A. Klein, Marc Teufel, Carl~J. Weile, and Patrick Sobetzko.
+\newblock The bacterial promoter spacer modulates promoter strength and timing
+  by length, {TG}-motifs and {DNA} supercoiling sensitivity.
+\newblock \emph{Scientific Reports}, 11:\penalty0 24399, 2021.
+\newblock \doi{10.1038/s41598-021-03817-4}.
+
+\bibitem[Kudla et~al.(2009)Kudla, Murray, Tollervey, and
+  Plotkin]{kudla2009coding}
+Grzegorz Kudla, Andrew~W. Murray, David Tollervey, and Joshua~B. Plotkin.
+\newblock Coding-sequence determinants of gene expression in {Escherichia
+  coli}.
+\newblock \emph{Science}, 324\penalty0 (5924):\penalty0 255--258, 2009.
+\newblock \doi{10.1126/science.1170160}.
+
+\bibitem[Lal et~al.(2024)Lal, Garfield, Biancalani, and Eraslan]{lal2024reglm}
+Avantika Lal, David Garfield, Tommaso Biancalani, and Gokcen Eraslan.
+\newblock {regLM}: Designing realistic regulatory {DNA} with autoregressive
+  language models.
+\newblock \emph{Genome Research}, 34\penalty0 (9):\penalty0 1411--1420, 2024.
+\newblock \doi{10.1101/gr.279142.124}.
+
+\bibitem[Madani et~al.(2023)Madani, Krause, Greene, Subramanian, Mohr, Holton,
+  Olmos, Xiong, Sun, Socher, Fraser, and Naik]{madani2023progen}
+Ali Madani, Ben Krause, Eric~R. Greene, Subu Subramanian, Benjamin~P. Mohr,
+  James~M. Holton, Jose~L. Olmos, Caiming Xiong, Zachary~Z. Sun, Richard
+  Socher, James~S. Fraser, and Nikhil Naik.
+\newblock Large language models generate functional protein sequences across
+  diverse families.
+\newblock \emph{Nature Biotechnology}, 41:\penalty0 1099--1106, 2023.
+\newblock \doi{10.1038/s41587-022-01618-2}.
+
+\bibitem[Meier et~al.(2021)Meier, Rao, Verkuil, Liu, Sercu, and
+  Rives]{esm1v_meier2021}
+Joshua Meier, Roshan Rao, Robert Verkuil, Jason Liu, Tom Sercu, and Alexander
+  Rives.
+\newblock Language models enable zero-shot prediction of the effects of
+  mutations on protein function.
+\newblock In \emph{Advances in Neural Information Processing Systems
+  (NeurIPS)}, volume~34, pages 29287--29303, 2021.
+
+\bibitem[Munsamy et~al.(2022)Munsamy, Lindner, Lorenz, and
+  Ferruz]{munsamy2024zymctrl}
+Geraldene Munsamy, Sebastian Lindner, Philipp Lorenz, and Noelia Ferruz.
+\newblock {ZymCTRL}: a conditional language model for the controllable
+  generation of artificial enzymes.
+\newblock In \emph{Machine Learning for Structural Biology Workshop, NeurIPS},
+  2022.
+\newblock URL \url{https://neurips.cc/virtual/2022/59047}.
+
+\bibitem[Nguyen et~al.(2023)Nguyen, Poli, Faizi, Thomas, Wornow, Birch-Sykes,
+  Massaroli, Patel, Rabideau, Bengio, Ermon, Baccus, and
+  R{\'e}]{nguyen2023hyenadna}
+Eric Nguyen, Michael Poli, Marjan Faizi, Armin~W. Thomas, Michael Wornow,
+  Callum Birch-Sykes, Stefano Massaroli, Aman Patel, Clayton Rabideau, Yoshua
+  Bengio, Stefano Ermon, Stephen~A. Baccus, and Christopher R{\'e}.
+\newblock {HyenaDNA}: Long-range genomic sequence modeling at single nucleotide
+  resolution.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~36, 2023.
+\newblock \doi{10.52202/075280-1872}.
+
+\bibitem[Nguyen et~al.(2024)Nguyen, Poli, Durrant, et~al.]{nguyen2024evo}
+Eric Nguyen, Michael Poli, Matthew~G. Durrant, et~al.
+\newblock Sequence modeling and design from molecular to genome scale with
+  {Evo}.
+\newblock \emph{Science}, 386\penalty0 (6723):\penalty0 eado9336, 2024.
+\newblock \doi{10.1126/science.ado9336}.
+
+\bibitem[Nijkamp et~al.(2023)Nijkamp, Ruffolo, Weinstein, Naik, and
+  Madani]{progen2_nijkamp2023}
+Erik Nijkamp, Jeffrey~A. Ruffolo, Eli~N. Weinstein, Nikhil Naik, and Ali
+  Madani.
+\newblock {ProGen2}: Exploring the boundaries of protein language models.
+\newblock \emph{Cell Systems}, 14\penalty0 (11):\penalty0 968--978, 2023.
+\newblock \doi{10.1016/j.cels.2023.10.002}.
+
+\bibitem[Rende et~al.(2024)Rende, Gerace, Laio, and Goldt]{simplicitybias2024}
+Riccardo Rende, Federica Gerace, Alessandro Laio, and Sebastian Goldt.
+\newblock A distributional simplicity bias in the learning dynamics of
+  transformers.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~37, pages 96207--96228, 2024.
+\newblock \doi{10.52202/079017-3049}.
+
+\bibitem[Ross et~al.(1993)Ross, Gosink, Salomon, Igarashi, Zou, Ishihama,
+  Severinov, and Gourse]{ross1993up}
+Wilma Ross, Khoosheh~K. Gosink, Julia Salomon, Kazuhiko Igarashi, Chao Zou,
+  Akira Ishihama, Konstantin Severinov, and Richard~L. Gourse.
+\newblock A third recognition element in bacterial promoters: {DNA} binding by
+  the alpha subunit of {RNA} polymerase.
+\newblock \emph{Science}, 262\penalty0 (5138):\penalty0 1407--1413, 1993.
+\newblock \doi{10.1126/science.8248780}.
+
+\bibitem[Salgado et~al.(2024)Salgado, Gama-Castro, Lara, et~al.]{regulondb2024}
+Heladia Salgado, Socorro Gama-Castro, Paloma Lara, et~al.
+\newblock {RegulonDB} v12.0: a comprehensive resource of transcriptional
+  regulation in {E. coli} {K-12}.
+\newblock \emph{Nucleic Acids Research}, 52\penalty0 (D1):\penalty0 D255--D264,
+  2024.
+\newblock \doi{10.1093/nar/gkad1072}.
+
+\bibitem[Salis et~al.(2009)Salis, Mirsky, and Voigt]{salis2009rbs}
+Howard~M. Salis, Ethan~A. Mirsky, and Christopher~A. Voigt.
+\newblock Automated design of synthetic ribosome binding sites to control
+  protein expression.
+\newblock \emph{Nature Biotechnology}, 27\penalty0 (10):\penalty0 946--950,
+  2009.
+\newblock \doi{10.1038/nbt.1568}.
+
+\bibitem[Xia et~al.(2026)Xia, Sun, Du, Liang, Wu, Shi, Shao, Guo, and
+  Huo]{promogen2}
+Yan Xia, Jinyuan Sun, Xiaowen Du, Zeyu Liang, Xin Wu, Wenyu Shi, Bin Shao,
+  Shuyuan Guo, and Yi-Xin Huo.
+\newblock Design prokaryotic \emph{cis}-regulatory elements using language
+  model.
+\newblock \emph{Nucleic Acids Research}, 54\penalty0 (4):\penalty0 gkag122,
+  2026.
+\newblock \doi{10.1093/nar/gkag122}.
+
+\bibitem[Zrimec et~al.(2020)Zrimec, B{\"o}rlin, Buric, Muhammad, Chen, Siewers,
+  Verendel, Nielsen, T{\"o}pel, and Zelezniak]{zrimec2020coevolution}
+Jan Zrimec, Christoph~S. B{\"o}rlin, Filip Buric, Azam~Sheikh Muhammad,
+  Rhongzen Chen, Verena Siewers, Vilhelm Verendel, Jens Nielsen, Mats
+  T{\"o}pel, and Aleksej Zelezniak.
+\newblock Deep learning suggests that gene expression is encoded in all parts
+  of a co-evolving interacting gene regulatory structure.
+\newblock \emph{Nature Communications}, 11:\penalty0 6141, 2020.
+\newblock \doi{10.1038/s41467-020-19921-4}.
+
+\bibitem[Zrimec et~al.(2021)Zrimec, Buric, Kokina, Garcia, and
+  Zelezniak]{zrimec2021regulatorycode}
+Jan Zrimec, Filip Buric, Mariia Kokina, Victor Garcia, and Aleksej Zelezniak.
+\newblock Learning the regulatory code of gene expression.
+\newblock \emph{Frontiers in Molecular Biosciences}, 8:\penalty0 673363, 2021.
+\newblock \doi{10.3389/fmolb.2021.673363}.
+
+\end{thebibliography}

@@ -1,0 +1,11 @@
+model,kind,mean_hamming,lo,hi,n_genes
+real_other,reference,2.65,,,9724
+real_own,reference,0.0,,,487
+evo1,generated,4.309,4.281,4.338,487
+evo1,shuffled,4.3,4.272,4.328,487
+evo2,generated,4.298,4.268,4.328,487
+evo2,shuffled,4.326,4.299,4.349,487
+hyenadna,generated,4.308,4.281,4.335,487
+hyenadna,shuffled,4.303,4.276,4.329,487
+promogen2,generated,3.929,3.895,3.964,459
+promogen2,shuffled,3.94,3.906,3.973,459

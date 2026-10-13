@@ -1,0 +1,10 @@
+per-gene aggregation over 20 generations, then high (n=200) vs low (n=200) CAI
+
+                    metric     high      low     diff    perm p
+        median SD score /6    4.155    3.995   +0.160     5e-05
+            fraction SD>=4    0.753    0.708   +0.044     5e-05
+    median SD position err    1.915    2.058   -0.143    0.1815
+    median SD->ATG spacing    6.270    6.107   +0.162    0.0021
+
+               REAL genome     high      low     diff    perm p
+               SD score /6    4.205    3.950   +0.255    0.0018

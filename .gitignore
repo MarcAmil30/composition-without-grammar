@@ -1,0 +1,38 @@
+# Working material kept on disk but never published.
+_archive/
+
+# LaTeX build products
+*.aux
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+build/
+
+# Local caches and scratch
+tmp/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.claude/
+.vscode/
+
+# Editor and backup files
+*.bak
+*.bak.*
+*.bak_*
+*~
+
+# Session artefacts: frozen copies of the submitted version and working diffs,
+# kept locally for reference and not part of the release.
+main_SUBMITTED_*.tex
+main_SUBMITTED_*.pdf
+supplementary_SUBMITTED_*.tex
+CAMERA_READY_CHANGES.diff
+
+# Unpublished follow-up work.
+figures/PROK_figure_1.pdf
+figures/hybrid_architecture_trial.pdf

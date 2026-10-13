@@ -1,0 +1,30 @@
+{
+  "n_eval": 500,
+  "n_pilot": 150,
+  "seed": 0,
+  "upstream_len": 200,
+  "eligible_pool": 798,
+  "population": 1453,
+  "drawn_from": "ecoli_retrieval_1453.csv filtered to up_len>=200 (798 genes), uniform, no stratification",
+  "nested": "pilot150 subset of eval500 subset of pool798",
+  "pilot_subset_ok": true,
+  "all_have_full_window": true,
+  "n_in_cds_prompted": 482,
+  "n_in_c3p_727": 266,
+  "bench_tier": {
+    "sd_only": 315,
+    "full_promoter": 180,
+    "none": 5
+  },
+  "up_len": {
+    "min": 200,
+    "median": 291.0
+  },
+  "cds_len": {
+    "min": 27,
+    "median": 870.0,
+    "max": 7020
+  },
+  "max_scored_seq_len": 7224,
+  "caveat": "clean-200bp requirement selects genes in sparser neighbourhoods; same subset for every model, so comparisons are unaffected"
+}

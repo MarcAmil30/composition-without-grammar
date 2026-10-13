@@ -1,0 +1,28 @@
+
+==============================================================================
+bsubtilis: 1270 genes with all 7 conditions complete
+==============================================================================
+
+within-C0 null : JS 26.418 bits/gene | pairwise identity 27.34%
+
+ cond  JS(C0,Ci)   vs null  identity   vs null  T0.2 same     GC
+   C0     26.418    +0.000    27.34%    +0.00%     100.0%  0.367
+   C1     26.530    +0.113    27.34%    -0.00%       1.0%  0.365
+   C2     26.553    +0.135    27.33%    -0.01%       0.2%  0.364
+   C3     26.735    +0.317    27.24%    -0.10%       0.2%  0.367
+   C4     27.970    +1.553    26.95%    -0.39%       0.0%  0.391
+   C5     26.434    +0.017    27.34%    +0.00%      28.3%  0.366
+   C6     26.546    +0.128    27.32%    -0.02%       0.5%  0.365
+
+M3 — SD placement in the generations (chance median error ~9 bp)
+ cond   %SD>=4  median pos err  %within 2bp
+   C0    73.4%             2.0        60.3%
+   C1    73.0%             2.0        60.1%
+   C2    73.2%             2.0        60.5%
+   C3    73.4%             2.0        59.7%
+   C4    80.0%             2.0        57.3%
+   C5    73.4%             2.0        60.7%
+   C6    72.6%             2.0        59.6%
+ REAL    95.2%             0.0       100.0%   <- ceiling
+
+[wrote ${ICBINB_ROOT}/data/benchmark/cds_prompted/results/m2m3m4_bsubtilis.csv]

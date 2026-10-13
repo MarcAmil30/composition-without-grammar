@@ -1,0 +1,39 @@
+{
+  "name": "embed_cos",
+  "higher_is_better": true,
+  "upstream_len": 200,
+  "n_candidates": 100,
+  "seed": 0,
+  "n_genes": 500,
+  "n_repeats": 20,
+  "top1": 0.8265,
+  "top1_ci95": [
+    0.7962975,
+    0.853105
+  ],
+  "top5": 0.9151999999999999,
+  "median_rank": 1.0,
+  "mean_rank": 2.2489,
+  "mrr": 0.8695348220649849,
+  "fold_over_chance": 82.65,
+  "chance_top1": 0.01,
+  "variance_decomposition": {
+    "between_candidate_frac": 0.5173069834709167,
+    "between_query_frac": 0.08887115865945816,
+    "interaction_frac": 0.3938217759132385
+  },
+  "guard_true_vs_decoy": {
+    "true_mean": 0.17018663883209229,
+    "decoy_mean": 0.02327890694141388,
+    "gap_mean": 0.1469077467918396,
+    "gap_median": 0.15586170554161072,
+    "frac_true_higher": 1.0,
+    "wilcoxon_stat": 125250.0,
+    "wilcoxon_p_greater": 0.0
+  },
+  "top1_reversed_direction": 0.0,
+  "model": "c3p",
+  "scorer": "embedding",
+  "query_modality": "protein",
+  "true_cos_mean": 0.17018663883209229
+}

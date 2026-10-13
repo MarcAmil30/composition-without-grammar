@@ -1,0 +1,10 @@
+source,kind,pct,n
+real,real,67.6,487
+evo1,generated,10.5,487
+evo1,shuffled,11.7,487
+evo2,generated,13.7,487
+evo2,shuffled,12.6,487
+hyenadna,generated,11.6,487
+hyenadna,shuffled,12.3,487
+promogen2,generated,10.8,459
+promogen2,shuffled,12.3,459

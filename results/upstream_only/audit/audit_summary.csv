@@ -1,0 +1,3 @@
+background,n_genes,sd_present_flag,sd_absent_flag,sd_hexamer_recoverable,sd_match_ge4,sd_match_ge5,sd_perfect_AGGAGG,start_codon_valid,start_codon_ATG,start_codon_GTG,start_codon_TTG,start_offset_mode,start_offset_is_20,tss_purine
+leaked,681,548,133,681,548,223,9,679,602,59,18,20,681,485
+clean,681,548,133,681,548,223,9,679,602,59,18,20,681,485

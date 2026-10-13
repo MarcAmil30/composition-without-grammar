@@ -1,0 +1,16 @@
+              cond  xent high  xent low      gap         p   (SD window, bits/base)
+ecoli           C0     1.7360    1.7882  -0.0522   0.00505
+ecoli           C4     1.7399    1.7870  -0.0471    0.0105
+ecoli           C2     1.7359    1.7928  -0.0570    0.0028
+              -> gap WITH CDS (C0) -0.0522 vs WITHOUT CDS (C4) -0.0471   CDS-attributable = -0.0051 bits
+
+bsubtilis       C0     1.5732    1.6571  -0.0839   0.00015
+bsubtilis       C4     1.5623    1.6543  -0.0920     5e-05
+bsubtilis       C2     1.5797    1.6680  -0.0883     5e-05
+              -> gap WITH CDS (C0) -0.0839 vs WITHOUT CDS (C4) -0.0920   CDS-attributable = +0.0080 bits
+
+C5 vs C6 normalised by perturbation size:
+  ecoli       C5  KL 0.0243 bits/gene   10.7% nt changed   -> 0.0023 bits per 1% perturbed
+  ecoli       C6  KL 0.9643 bits/gene   60.8% nt changed   -> 0.0159 bits per 1% perturbed
+  bsubtilis   C5  KL 0.0338 bits/gene   11.9% nt changed   -> 0.0028 bits per 1% perturbed
+  bsubtilis   C6  KL 1.0353 bits/gene   58.7% nt changed   -> 0.0176 bits per 1% perturbed

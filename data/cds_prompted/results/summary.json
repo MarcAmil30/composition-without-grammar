@@ -1,0 +1,188 @@
+{
+ "ecoli_T3": {
+  "n_high": 200,
+  "n_low": 200,
+  "ent_sd_high": 1.7638530130005907,
+  "ent_sd_low": 1.7883140137144915,
+  "p": 0.00119994000299985
+ },
+ "ecoli_M1": [
+  {
+   "species": "ecoli",
+   "condition": "C0",
+   "n": 1882,
+   "kl_per_gene_mean": 0.0,
+   "kl_per_gene_median": 0.0,
+   "kl_per_position": 0.0,
+   "kl_sd_region": 0.0,
+   "xent_bits": 1.8977630950771036,
+   "entropy_bits": 1.8949755157704324,
+   "p_AT": 0.5701974618652187
+  },
+  {
+   "species": "ecoli",
+   "condition": "C1",
+   "n": 1882,
+   "kl_per_gene_mean": 0.4903145135136598,
+   "kl_per_gene_median": 0.3598547541410223,
+   "kl_per_position": 0.0024515725675682987,
+   "kl_sd_region": 0.0359926594141196,
+   "xent_bits": 1.8982601726116353,
+   "entropy_bits": 1.8962576505130133,
+   "p_AT": 0.5718945580539384
+  },
+  {
+   "species": "ecoli",
+   "condition": "C2",
+   "n": 1882,
+   "kl_per_gene_mean": 1.0513818353639113,
+   "kl_per_gene_median": 0.7808534467999683,
+   "kl_per_position": 0.005256909176819556,
+   "kl_sd_region": 0.06900110761523176,
+   "xent_bits": 1.899259486943798,
+   "entropy_bits": 1.8969990644225478,
+   "p_AT": 0.5728684140987513
+  },
+  {
+   "species": "ecoli",
+   "condition": "C3",
+   "n": 1880,
+   "kl_per_gene_mean": 2.047508301793569,
+   "kl_per_gene_median": 1.5301794765599706,
+   "kl_per_position": 0.010237541508967845,
+   "kl_sd_region": 0.13642714946477016,
+   "xent_bits": 1.901391827838891,
+   "entropy_bits": 1.8963569342529125,
+   "p_AT": 0.5702303538415424
+  },
+  {
+   "species": "ecoli",
+   "condition": "C4",
+   "n": 1882,
+   "kl_per_gene_mean": 2.7997881655640446,
+   "kl_per_gene_median": 2.0879297574754583,
+   "kl_per_position": 0.013998940827820223,
+   "kl_sd_region": 0.19843219858668326,
+   "xent_bits": 1.8910283877985052,
+   "entropy_bits": 1.889432544349547,
+   "p_AT": 0.5674683639195293
+  },
+  {
+   "species": "ecoli",
+   "condition": "C5",
+   "n": 1882,
+   "kl_per_gene_mean": 0.024325209105698183,
+   "kl_per_gene_median": 0.009473730062984766,
+   "kl_per_position": 0.00012162604552849092,
+   "kl_sd_region": 0.0030447467828046758,
+   "xent_bits": 1.8977905365868597,
+   "entropy_bits": 1.8950979609561676,
+   "p_AT": 0.5704250323968271
+  },
+  {
+   "species": "ecoli",
+   "condition": "C6",
+   "n": 1882,
+   "kl_per_gene_mean": 0.9643336558814289,
+   "kl_per_gene_median": 0.7308771508398832,
+   "kl_per_position": 0.004821668279407144,
+   "kl_sd_region": 0.06457078005046735,
+   "xent_bits": 1.8990461468965225,
+   "entropy_bits": 1.896775562391813,
+   "p_AT": 0.572060267668487
+  }
+ ],
+ "bsubtilis_T3": {
+  "n_high": 200,
+  "n_low": 200,
+  "ent_sd_high": 1.607835808439067,
+  "ent_sd_low": 1.6286642709593229,
+  "p": 0.006749662516874156
+ },
+ "bsubtilis_M1": [
+  {
+   "species": "bsubtilis",
+   "condition": "C0",
+   "n": 1269,
+   "kl_per_gene_mean": 0.0,
+   "kl_per_gene_median": 0.0,
+   "kl_per_position": 0.0,
+   "kl_sd_region": 0.0,
+   "xent_bits": 1.850789447095151,
+   "entropy_bits": 1.8422863027255443,
+   "p_AT": 0.6419346488739395
+  },
+  {
+   "species": "bsubtilis",
+   "condition": "C1",
+   "n": 1269,
+   "kl_per_gene_mean": 0.5814258644903398,
+   "kl_per_gene_median": 0.46437597214342663,
+   "kl_per_position": 0.002907129322451699,
+   "kl_sd_region": 0.08327357089071347,
+   "xent_bits": 1.8525742278119346,
+   "entropy_bits": 1.8464873831548474,
+   "p_AT": 0.64335757995839
+  },
+  {
+   "species": "bsubtilis",
+   "condition": "C2",
+   "n": 1269,
+   "kl_per_gene_mean": 1.1421426396430439,
+   "kl_per_gene_median": 0.9625464928184618,
+   "kl_per_position": 0.0057107131982152195,
+   "kl_sd_region": 0.15081002212336828,
+   "xent_bits": 1.8539071782136893,
+   "entropy_bits": 1.8482415267261418,
+   "p_AT": 0.6439663241810814
+  },
+  {
+   "species": "bsubtilis",
+   "condition": "C3",
+   "n": 1268,
+   "kl_per_gene_mean": 2.17169530289266,
+   "kl_per_gene_median": 1.749769939404509,
+   "kl_per_position": 0.0108584765144633,
+   "kl_sd_region": 0.2489792490198588,
+   "xent_bits": 1.8561072173707396,
+   "entropy_bits": 1.843432469636149,
+   "p_AT": 0.6424407029843185
+  },
+  {
+   "species": "bsubtilis",
+   "condition": "C4",
+   "n": 1269,
+   "kl_per_gene_mean": 2.8062609884024847,
+   "kl_per_gene_median": 2.4824509044752356,
+   "kl_per_position": 0.014031304942012424,
+   "kl_sd_region": 0.26098805086773486,
+   "xent_bits": 1.8453111354308775,
+   "entropy_bits": 1.8370235694405965,
+   "p_AT": 0.6371391170306648
+  },
+  {
+   "species": "bsubtilis",
+   "condition": "C5",
+   "n": 1269,
+   "kl_per_gene_mean": 0.03380253733667304,
+   "kl_per_gene_median": 0.014673179791850347,
+   "kl_per_position": 0.00016901268668336519,
+   "kl_sd_region": 0.005586105800321472,
+   "xent_bits": 1.850956511288663,
+   "entropy_bits": 1.8425180564139307,
+   "p_AT": 0.6422365053945338
+  },
+  {
+   "species": "bsubtilis",
+   "condition": "C6",
+   "n": 1269,
+   "kl_per_gene_mean": 1.0353489954473005,
+   "kl_per_gene_median": 0.8530317666870275,
+   "kl_per_position": 0.005176744977236502,
+   "kl_sd_region": 0.12811084403483441,
+   "xent_bits": 1.8535201312975753,
+   "entropy_bits": 1.8480848772296783,
+   "p_AT": 0.6429738998550488
+  }
+ ]
+}

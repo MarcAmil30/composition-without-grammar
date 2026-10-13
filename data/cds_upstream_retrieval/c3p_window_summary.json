@@ -1,0 +1,326 @@
+{
+  "d200": {
+    "Escherichia coli": {
+      "full200": {
+        "window": "full200",
+        "distal_edge": -200,
+        "proximal_edge": 0,
+        "width": 200,
+        "n": 409,
+        "n_repeats": 20,
+        "top1": 0.8078239608801956,
+        "top5": 0.9072127139364303,
+        "median_rank": 1.0,
+        "mean_rank": 2.5102689486552565
+      },
+      "prox50": {
+        "window": "prox50",
+        "distal_edge": -50,
+        "proximal_edge": 0,
+        "width": 50,
+        "n": 409,
+        "n_repeats": 20,
+        "top1": 0.07628361858190709,
+        "top5": 0.19058679706601467,
+        "median_rank": 26.0,
+        "mean_rank": 33.86491442542787
+      },
+      "prox100": {
+        "window": "prox100",
+        "distal_edge": -100,
+        "proximal_edge": 0,
+        "width": 100,
+        "n": 409,
+        "n_repeats": 20,
+        "top1": 0.4982885085574572,
+        "top5": 0.6771393643031784,
+        "median_rank": 2.0,
+        "mean_rank": 8.95354523227384
+      },
+      "prox150": {
+        "window": "prox150",
+        "distal_edge": -150,
+        "proximal_edge": 0,
+        "width": 150,
+        "n": 409,
+        "n_repeats": 20,
+        "top1": 0.7398533007334963,
+        "top5": 0.8568459657701711,
+        "median_rank": 1.0,
+        "mean_rank": 3.5205378973105135
+      },
+      "dist100": {
+        "window": "dist100",
+        "distal_edge": -200,
+        "proximal_edge": -100,
+        "width": 100,
+        "n": 409,
+        "n_repeats": 20,
+        "top1": 0.3569682151589242,
+        "top5": 0.5062347188264059,
+        "median_rank": 5.0,
+        "mean_rank": 15.534596577017115
+      },
+      "dist150": {
+        "window": "dist150",
+        "distal_edge": -200,
+        "proximal_edge": -50,
+        "width": 150,
+        "n": 409,
+        "n_repeats": 20,
+        "top1": 0.6518337408312959,
+        "top5": 0.7787286063569682,
+        "median_rank": 1.0,
+        "mean_rank": 5.267114914425428
+      }
+    },
+    "Bacillus subtilis": {
+      "full200": {
+        "window": "full200",
+        "distal_edge": -200,
+        "proximal_edge": 0,
+        "width": 200,
+        "n": 293,
+        "n_repeats": 20,
+        "top1": 0.6411262798634813,
+        "top5": 0.8006825938566553,
+        "median_rank": 1.0,
+        "mean_rank": 4.625597269624573
+      },
+      "prox50": {
+        "window": "prox50",
+        "distal_edge": -50,
+        "proximal_edge": 0,
+        "width": 50,
+        "n": 293,
+        "n_repeats": 20,
+        "top1": 0.10614334470989761,
+        "top5": 0.2196245733788396,
+        "median_rank": 26.0,
+        "mean_rank": 31.382423208191128
+      },
+      "prox100": {
+        "window": "prox100",
+        "distal_edge": -100,
+        "proximal_edge": 0,
+        "width": 100,
+        "n": 293,
+        "n_repeats": 20,
+        "top1": 0.41911262798634813,
+        "top5": 0.5610921501706485,
+        "median_rank": 3.0,
+        "mean_rank": 13.128327645051195
+      },
+      "prox150": {
+        "window": "prox150",
+        "distal_edge": -150,
+        "proximal_edge": 0,
+        "width": 150,
+        "n": 293,
+        "n_repeats": 20,
+        "top1": 0.571160409556314,
+        "top5": 0.7363481228668942,
+        "median_rank": 1.0,
+        "mean_rank": 6.654607508532423
+      },
+      "dist100": {
+        "window": "dist100",
+        "distal_edge": -200,
+        "proximal_edge": -100,
+        "width": 100,
+        "n": 293,
+        "n_repeats": 20,
+        "top1": 0.26262798634812284,
+        "top5": 0.3902730375426621,
+        "median_rank": 13.0,
+        "mean_rank": 24.691126279863482
+      },
+      "dist150": {
+        "window": "dist150",
+        "distal_edge": -200,
+        "proximal_edge": -50,
+        "width": 150,
+        "n": 293,
+        "n_repeats": 20,
+        "top1": 0.4520477815699659,
+        "top5": 0.5977815699658703,
+        "median_rank": 2.0,
+        "mean_rank": 11.596245733788395
+      }
+    }
+  },
+  "d300": {
+    "Escherichia coli": {
+      "full300": {
+        "window": "full300",
+        "distal_edge": -300,
+        "proximal_edge": 0,
+        "width": 300,
+        "n": 198,
+        "n_repeats": 20,
+        "top1": 0.7161616161616161,
+        "top5": 0.8502525252525253,
+        "median_rank": 1.0,
+        "mean_rank": 3.337121212121212
+      },
+      "prox50": {
+        "window": "prox50",
+        "distal_edge": -50,
+        "proximal_edge": 0,
+        "width": 50,
+        "n": 198,
+        "n_repeats": 20,
+        "top1": 0.07272727272727272,
+        "top5": 0.175,
+        "median_rank": 27.0,
+        "mean_rank": 34.56262626262626
+      },
+      "prox100": {
+        "window": "prox100",
+        "distal_edge": -100,
+        "proximal_edge": 0,
+        "width": 100,
+        "n": 198,
+        "n_repeats": 20,
+        "top1": 0.4318181818181818,
+        "top5": 0.5840909090909091,
+        "median_rank": 3.0,
+        "mean_rank": 12.229545454545455
+      },
+      "prox150": {
+        "window": "prox150",
+        "distal_edge": -150,
+        "proximal_edge": 0,
+        "width": 150,
+        "n": 198,
+        "n_repeats": 20,
+        "top1": 0.6232323232323232,
+        "top5": 0.7542929292929293,
+        "median_rank": 1.0,
+        "mean_rank": 6.146464646464646
+      },
+      "dist100": {
+        "window": "dist100",
+        "distal_edge": -200,
+        "proximal_edge": -100,
+        "width": 100,
+        "n": 198,
+        "n_repeats": 20,
+        "top1": 0.29772727272727273,
+        "top5": 0.43863636363636366,
+        "median_rank": 8.0,
+        "mean_rank": 18.603535353535353
+      },
+      "dist150": {
+        "window": "dist150",
+        "distal_edge": -200,
+        "proximal_edge": -50,
+        "width": 150,
+        "n": 198,
+        "n_repeats": 20,
+        "top1": 0.5434343434343434,
+        "top5": 0.6815656565656566,
+        "median_rank": 1.0,
+        "mean_rank": 8.014393939393939
+      },
+      "dist200": {
+        "window": "dist200",
+        "distal_edge": -300,
+        "proximal_edge": -200,
+        "width": 100,
+        "n": 198,
+        "n_repeats": 20,
+        "top1": 0.1431818181818182,
+        "top5": 0.22297979797979797,
+        "median_rank": 26.0,
+        "mean_rank": 32.74267676767677
+      }
+    },
+    "Bacillus subtilis": {
+      "full300": {
+        "window": "full300",
+        "distal_edge": -300,
+        "proximal_edge": 0,
+        "width": 300,
+        "n": 150,
+        "n_repeats": 20,
+        "top1": 0.6346666666666667,
+        "top5": 0.8343333333333334,
+        "median_rank": 1.0,
+        "mean_rank": 3.905666666666667
+      },
+      "prox50": {
+        "window": "prox50",
+        "distal_edge": -50,
+        "proximal_edge": 0,
+        "width": 50,
+        "n": 150,
+        "n_repeats": 20,
+        "top1": 0.117,
+        "top5": 0.23366666666666666,
+        "median_rank": 30.0,
+        "mean_rank": 32.174
+      },
+      "prox100": {
+        "window": "prox100",
+        "distal_edge": -100,
+        "proximal_edge": 0,
+        "width": 100,
+        "n": 150,
+        "n_repeats": 20,
+        "top1": 0.38533333333333336,
+        "top5": 0.504,
+        "median_rank": 5.0,
+        "mean_rank": 16.146
+      },
+      "prox150": {
+        "window": "prox150",
+        "distal_edge": -150,
+        "proximal_edge": 0,
+        "width": 150,
+        "n": 150,
+        "n_repeats": 20,
+        "top1": 0.5236666666666666,
+        "top5": 0.662,
+        "median_rank": 1.0,
+        "mean_rank": 9.075666666666667
+      },
+      "dist100": {
+        "window": "dist100",
+        "distal_edge": -200,
+        "proximal_edge": -100,
+        "width": 100,
+        "n": 150,
+        "n_repeats": 20,
+        "top1": 0.25466666666666665,
+        "top5": 0.38866666666666666,
+        "median_rank": 17.0,
+        "mean_rank": 26.238666666666667
+      },
+      "dist150": {
+        "window": "dist150",
+        "distal_edge": -200,
+        "proximal_edge": -50,
+        "width": 150,
+        "n": 150,
+        "n_repeats": 20,
+        "top1": 0.41633333333333333,
+        "top5": 0.5323333333333333,
+        "median_rank": 4.0,
+        "mean_rank": 14.041333333333334
+      },
+      "dist200": {
+        "window": "dist200",
+        "distal_edge": -300,
+        "proximal_edge": -200,
+        "width": 100,
+        "n": 150,
+        "n_repeats": 20,
+        "top1": 0.107,
+        "top5": 0.19366666666666665,
+        "median_rank": 31.0,
+        "mean_rank": 35.92066666666667
+      }
+    }
+  }
+}

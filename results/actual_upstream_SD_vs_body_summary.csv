@@ -1,0 +1,5 @@
+species,window,median_pairwise_identity_%,chance_identity_%,dinuc_KL_bits,dinuc_KL_shuffled_bits
+E. coli,SD (-20..-1),30.0,29.03,0.0175,0.0006
+E. coli,Body (-200..-21),25.0,25.37,0.0169,0.0002
+B. subtilis,SD (-20..-1),35.0,32.62,0.0256,0.0004
+B. subtilis,Body (-200..-21),26.67,26.8,0.0169,0.0002

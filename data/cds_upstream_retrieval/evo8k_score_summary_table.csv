@@ -1,0 +1,17 @@
+metric,species,length_bp,n_genes,direction,top1,top5,median_rank,top1_higher,top1_lower,score_gap
+full,Escherichia coli,300,150,higher,0.028,0.095,39.0,0.028,0.0067,0.0174
+full,Escherichia coli,200,150,higher,0.053,0.1227,35.0,0.053,0.0067,0.0164
+full,Escherichia coli,100,150,higher,0.0413,0.1887,27.0,0.0413,0.0067,0.0144
+full,Escherichia coli,50,150,higher,0.0533,0.141,30.0,0.0533,0.01,0.01
+full,Bacillus subtilis,300,150,higher,0.0223,0.1097,42.0,0.0223,0.0023,0.0125
+full,Bacillus subtilis,200,150,higher,0.044,0.113,39.0,0.044,0.0027,0.0128
+full,Bacillus subtilis,100,150,higher,0.057,0.1433,35.0,0.057,0.009,0.0124
+full,Bacillus subtilis,50,150,higher,0.0457,0.1077,37.0,0.0457,0.0043,0.009
+cds,Escherichia coli,300,150,higher,0.1557,0.2953,14.0,0.1557,0.0067,0.0248
+cds,Escherichia coli,200,150,higher,0.1547,0.2883,16.0,0.1547,0.0067,0.0223
+cds,Escherichia coli,100,150,higher,0.1127,0.2203,23.0,0.1127,0.007,0.0177
+cds,Escherichia coli,50,150,higher,0.055,0.1257,29.0,0.055,0.0103,0.0111
+cds,Bacillus subtilis,300,150,higher,0.1177,0.2663,20.0,0.1177,0.0,0.0186
+cds,Bacillus subtilis,200,150,higher,0.135,0.2603,22.0,0.135,0.0,0.0184
+cds,Bacillus subtilis,100,150,higher,0.0727,0.187,24.0,0.0727,0.0013,0.0169
+cds,Bacillus subtilis,50,150,higher,0.039,0.1393,31.0,0.039,0.0067,0.0107

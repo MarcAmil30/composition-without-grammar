@@ -1,0 +1,24 @@
+# Analysis and figures. Pinned to the minimum versions the released code was run
+# with; anything newer in the same major line should work.
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+matplotlib>=3.8
+statsmodels>=0.14
+pyarrow>=15.0          # parquet rank tables
+logomaker>=0.8         # sequence logos (upstream_only_logos, dataset supplement)
+pymupdf>=1.24          # Fig. 1 panel composition
+pyrodigal>=3.0         # CDS calling for the benchmark build
+requests>=2.31
+
+# Model evaluation only. Not needed to rebuild any figure from the shipped
+# tables; needed to rerun generation, likelihood scoring or embedding.
+# torch>=2.2
+# transformers>=4.40
+# huggingface_hub>=0.23
+#
+# Model-specific packages that are not on PyPI and must be installed from their
+# own repositories:
+#   evo             github.com/evo-design/evo               (Evo 1)
+#   evo2            github.com/ArcInstitute/evo2            (Evo 2)
+#   promoter_protein_clip                                   (C3P; see README)

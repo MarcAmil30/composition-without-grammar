@@ -1,0 +1,457 @@
+% =====================================================================
+% References for "Composition Without Grammar: Next-Token Models Miss Regulatory
+%  Structure in Bacterial DNA" (ICBINB-BIO at NeurIPS 2026).
+% Keys match \citep{...} calls in ../main.tex
+% NOTE: entries flagged "% VERIFY" have arXiv IDs taken from a web browse
+%       during drafting -- confirm before camera-ready.
+% =====================================================================
+
+% ---- Introduction / biological motivation -------------------------------
+@article{zrimec2020coevolution,
+  author  = {Zrimec, Jan and B{\"o}rlin, Christoph S. and Buric, Filip and
+             Muhammad, Azam Sheikh and Chen, Rhongzen and Siewers, Verena and
+             Verendel, Vilhelm and Nielsen, Jens and T{\"o}pel, Mats and
+             Zelezniak, Aleksej},
+  title   = {Deep learning suggests that gene expression is encoded in all
+             parts of a co-evolving interacting gene regulatory structure},
+  journal = {Nature Communications},
+  year    = {2020},
+  volume  = {11},
+  pages   = {6141},
+  doi     = {10.1038/s41467-020-19921-4}
+}
+
+@article{zrimec2021regulatorycode,
+  author  = {Zrimec, Jan and Buric, Filip and Kokina, Mariia and Garcia, Victor
+             and Zelezniak, Aleksej},
+  title   = {Learning the Regulatory Code of Gene Expression},
+  journal = {Frontiers in Molecular Biosciences},
+  year    = {2021},
+  volume  = {8},
+  pages   = {673363},
+  doi     = {10.3389/fmolb.2021.673363}
+}
+
+@article{zrimec2022generative,
+  author  = {Zrimec, Jan and Fu, Xiaozhi and Muhammad, Azam Sheikh and others},
+  title   = {Controlling gene expression with deep generative design of
+             regulatory {DNA}},
+  journal = {Nature Communications},
+  year    = {2022},
+  volume  = {13},
+  pages   = {5099},
+  doi     = {10.1038/s41467-022-32818-8}
+}
+
+@article{salis2009rbs,
+  author  = {Salis, Howard M. and Mirsky, Ethan A. and Voigt, Christopher A.},
+  title   = {Automated design of synthetic ribosome binding sites to control
+             protein expression},
+  journal = {Nature Biotechnology},
+  year    = {2009},
+  volume  = {27},
+  number  = {10},
+  pages   = {946--950},
+  doi     = {10.1038/nbt.1568}
+}
+
+@article{kosuri2013composability,
+  author  = {Kosuri, Sriram and Goodman, Daniel B. and Cambray, Guillaume and
+             Mutalik, Vivek K. and Gao, Yuan and Arkin, Adam P. and Endy, Drew
+             and Church, George M.},
+  title   = {Composability of regulatory sequences controlling transcription
+             and translation in {Escherichia coli}},
+  journal = {Proceedings of the National Academy of Sciences},
+  year    = {2013},
+  volume  = {110},
+  number  = {34},
+  pages   = {14024--14029},
+  doi     = {10.1073/pnas.1301301110}
+}
+
+@article{mutalik2013precise,
+  author  = {Mutalik, Vivek K. and Guimaraes, Joao C. and Cambray, Guillaume
+             and Lam, Colin and Christoffersen, Marc Juul and Mai, Quynh-Anh
+             and Tran, Andrew B. and Paull, Morgan and Keasling, Jay D. and
+             Arkin, Adam P. and Endy, Drew},
+  title   = {Precise and reliable gene expression via standard transcription
+             and translation initiation elements},
+  journal = {Nature Methods},
+  year    = {2013},
+  volume  = {10},
+  number  = {4},
+  pages   = {354--360},
+  doi     = {10.1038/nmeth.2404}
+}
+
+@article{wang2020promoter,
+  author  = {Wang, Ye and Wang, Haochen and Wei, Lei and Li, Shuailin and
+             Liu, Liyang and Wang, Xiaowo},
+  title   = {Synthetic promoter design in {Escherichia coli} based on a deep
+             generative network},
+  journal = {Nucleic Acids Research},
+  year    = {2020},
+  volume  = {48},
+  number  = {12},
+  pages   = {6403--6412},
+  doi     = {10.1093/nar/gkaa325}
+}
+
+@article{nguyen2024evo,
+  author  = {Nguyen, Eric and Poli, Michael and Durrant, Matthew G. and others},
+  title   = {Sequence modeling and design from molecular to genome scale with
+             {Evo}},
+  journal = {Science},
+  year    = {2024},
+  volume  = {386},
+  number  = {6723},
+  pages   = {eado9336},
+  doi     = {10.1126/science.ado9336}
+}
+
+% ---- Current practice: promoter/RBS libraries screened at a fixed CDS ---
+@article{alper2005promoter,
+  author  = {Alper, Hal and Fischer, Curt and Nevoigt, Elke and
+             Stephanopoulos, Gregory},
+  title   = {Tuning genetic control through promoter engineering},
+  journal = {Proceedings of the National Academy of Sciences},
+  year    = {2005},
+  volume  = {102},
+  number  = {36},
+  pages   = {12678--12683},
+  doi     = {10.1073/pnas.0504604102}
+}
+
+% ---- Background/composition is itself functional in regulatory DNA ------
+@article{kudla2009coding,
+  author  = {Kudla, Grzegorz and Murray, Andrew W. and Tollervey, David and
+             Plotkin, Joshua B.},
+  title   = {Coding-sequence determinants of gene expression in
+             {Escherichia coli}},
+  journal = {Science},
+  year    = {2009},
+  volume  = {324},
+  number  = {5924},
+  pages   = {255--258},
+  doi     = {10.1126/science.1170160}
+}
+
+@article{cambray2018translation,
+  author  = {Cambray, Guillaume and Guimaraes, Joao C. and Arkin, Adam P.},
+  title   = {Evaluation of 244,000 synthetic sequences reveals design principles
+             to optimize translation in {Escherichia coli}},
+  journal = {Nature Biotechnology},
+  year    = {2018},
+  volume  = {36},
+  number  = {10},
+  pages   = {1005--1015},
+  doi     = {10.1038/nbt.4238}
+}
+
+
+@article{ross1993up,
+  author  = {Ross, Wilma and Gosink, Khoosheh K. and Salomon, Julia and
+             Igarashi, Kazuhiko and Zou, Chao and Ishihama, Akira and
+             Severinov, Konstantin and Gourse, Richard L.},
+  title   = {A third recognition element in bacterial promoters: {DNA} binding
+             by the alpha subunit of {RNA} polymerase},
+  journal = {Science},
+  year    = {1993},
+  volume  = {262},
+  number  = {5138},
+  pages   = {1407--1413},
+  doi     = {10.1126/science.8248780}
+}
+
+@article{levo2015flanking,
+  author  = {Levo, Michal and Zalckvar, Einat and Sharon, Eilon and
+             Dantas Machado, Ana Carolina and Kalma, Yael and
+             Lotan-Pompan, Maya and Weinberger, Adina and Yakhini, Zohar and
+             Rohs, Remo and Segal, Eran},
+  title   = {Unraveling determinants of transcription factor binding outside
+             the core binding site},
+  journal = {Genome Research},
+  year    = {2015},
+  volume  = {25},
+  number  = {7},
+  pages   = {1018--1029},
+  doi     = {10.1101/gr.185033.114}
+}
+
+@article{spacer2021,
+  author  = {Klein, Carlo A. and Teufel, Marc and Weile, Carl J. and
+             Sobetzko, Patrick},
+  title   = {The bacterial promoter spacer modulates promoter strength and
+             timing by length, {TG}-motifs and {DNA} supercoiling sensitivity},
+  journal = {Scientific Reports},
+  year    = {2021},
+  volume  = {11},
+  pages   = {24399},
+  doi     = {10.1038/s41598-021-03817-4}
+}
+
+% ---- Regulatory sequence is less (densely) constrained than coding ------
+@article{wunderlich2009motifs,
+  author  = {Wunderlich, Zeba and Mirny, Leonid A.},
+  title   = {Different gene regulation strategies revealed by analysis of
+             binding motifs},
+  journal = {Trends in Genetics},
+  year    = {2009},
+  volume  = {25},
+  number  = {10},
+  pages   = {434--440},
+  doi     = {10.1016/j.tig.2009.08.003}
+}
+
+@article{kircher2019saturation,
+  author  = {Kircher, Martin and Xiong, Chenling and Martin, Beth and
+             Schubach, Max and Inoue, Fumitaka and Bell, Robert J.~A. and
+             Costello, Joseph F. and Shendure, Jay and Ahituv, Nadav},
+  title   = {Saturation mutagenesis of twenty disease-associated regulatory
+             elements at single base-pair resolution},
+  journal = {Nature Communications},
+  year    = {2019},
+  volume  = {10},
+  pages   = {3583},
+  doi     = {10.1038/s41467-019-11526-w}
+}
+
+@article{villar2015enhancer,
+  author  = {Villar, Diego and Berthelot, Camille and Aldridge, Sarah and
+             others},
+  title   = {Enhancer evolution across 20 mammalian species},
+  journal = {Cell},
+  year    = {2015},
+  volume  = {160},
+  number  = {3},
+  pages   = {554--566},
+  doi     = {10.1016/j.cell.2015.01.006}
+}
+
+% ---- Prompt/control-token conditioning of (genomic) generators ----------
+@article{lal2024reglm,
+  author  = {Lal, Avantika and Garfield, David and Biancalani, Tommaso and
+             Eraslan, Gokcen},
+  title   = {{regLM}: Designing realistic regulatory {DNA} with autoregressive
+             language models},
+  journal = {Genome Research},
+  year    = {2024},
+  volume  = {34},
+  number  = {9},
+  pages   = {1411--1420},
+  doi     = {10.1101/gr.279142.124}
+}
+
+% ZymCTRL (MLSB at NeurIPS 2022)
+@inproceedings{munsamy2024zymctrl,
+  author    = {Munsamy, Geraldene and Lindner, Sebastian and Lorenz, Philipp
+               and Ferruz, Noelia},
+  title     = {{ZymCTRL}: a conditional language model for the controllable
+               generation of artificial enzymes},
+  booktitle = {Machine Learning for Structural Biology Workshop, NeurIPS},
+  year      = {2022},
+  url       = {https://neurips.cc/virtual/2022/59047}
+}
+
+% ---- Why LMs work for text & protein: likelihood ~ function -------------
+@inproceedings{esm1v_meier2021,
+  author    = {Meier, Joshua and Rao, Roshan and Verkuil, Robert and Liu, Jason
+               and Sercu, Tom and Rives, Alexander},
+  title     = {Language models enable zero-shot prediction of the effects of
+               mutations on protein function},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume    = {34},
+  pages     = {29287--29303},
+  year      = {2021}
+}
+
+@article{protgpt2_ferruz2022,
+  author  = {Ferruz, Noelia and Schmidt, Steffen and H{\"o}cker, Birte},
+  title   = {{ProtGPT2} is a deep unsupervised language model for protein
+             design},
+  journal = {Nature Communications},
+  year    = {2022},
+  volume  = {13},
+  pages   = {4348},
+  doi     = {10.1038/s41467-022-32007-7}
+}
+
+@article{progen2_nijkamp2023,
+  author  = {Nijkamp, Erik and Ruffolo, Jeffrey A. and Weinstein, Eli N. and
+             Naik, Nikhil and Madani, Ali},
+  title   = {{ProGen2}: Exploring the boundaries of protein language models},
+  journal = {Cell Systems},
+  year    = {2023},
+  volume  = {14},
+  number  = {11},
+  pages   = {968--978},
+  doi     = {10.1016/j.cels.2023.10.002}
+}
+
+% ---- Why this happens: ML theory + conditioning + RL --------------------
+@inproceedings{simplicitybias2024,
+  author    = {Rende, Riccardo and Gerace, Federica and Laio, Alessandro and
+               Goldt, Sebastian},
+  title     = {A distributional simplicity bias in the learning dynamics of
+               transformers},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {37},
+  pages     = {96207--96228},
+  year      = {2024},
+  doi       = {10.52202/079017-3049}
+}
+
+@inproceedings{increasingcomplexity2024,
+  author    = {Belrose, Nora and Pope, Quintin and Quirke, Lucia and Mallen,
+               Alex Troy and Fern, Xiaoli},
+  title     = {Neural Networks Learn Statistics of Increasing Complexity},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {235},
+  pages     = {3382--3409},
+  year      = {2024},
+  url       = {https://proceedings.mlr.press/v235/belrose24a.html}
+}
+
+@article{constrained2022,
+  author  = {Garbacea, Cristina and Mei, Qiaozhu},
+  title   = {Why is constrained neural language generation particularly
+             challenging?},
+  journal = {arXiv preprint arXiv:2206.05395},
+  year    = {2022}
+}
+
+% VERIFY arXiv id
+@article{rlhfcollapse2026,
+  title   = {When {RLHF} Fails: A Mechanistic Taxonomy of Reward Hacking,
+             Collapse, and Evaluator Gaming},
+  journal = {arXiv preprint arXiv:2606.03238},
+  year    = {2026}
+}
+
+% VERIFY arXiv id
+@article{modecollapse2026,
+  title   = {Expected Return Causes Outcome-Level Mode Collapse in
+             Reinforcement Learning},
+  journal = {arXiv preprint arXiv:2601.21669},
+  year    = {2026}
+}
+
+% ---- Direct genomic parallel + representation failure -------------------
+@article{invariance2026,
+  author  = {Cheng, Bryan and Zhang, Jasper},
+  title   = {The Mechanistic Invariance Test: Genomic Language Models Fail to
+             Learn Positional Regulatory Logic},
+  journal = {arXiv preprint arXiv:2604.06549},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2604.06549}
+}
+
+@article{dnalmrepr2024,
+  title   = {Evaluating the representational power of pre-trained {DNA}
+             language models for regulatory genomics},
+  journal = {bioRxiv},
+  year    = {2024},
+  doi     = {10.1101/2024.02.29.582810}
+}
+
+% ---- Conditional bio generation succeeds only at coarse labels ----------
+@article{madani2023progen,
+  author  = {Madani, Ali and Krause, Ben and Greene, Eric R. and Subramanian,
+             Subu and Mohr, Benjamin P. and Holton, James M. and Olmos, Jose L.
+             and Xiong, Caiming and Sun, Zachary Z. and Socher, Richard and
+             Fraser, James S. and Naik, Nikhil},
+  title   = {Large language models generate functional protein sequences
+             across diverse families},
+  journal = {Nature Biotechnology},
+  year    = {2023},
+  volume  = {41},
+  pages   = {1099--1106},
+  doi     = {10.1038/s41587-022-01618-2}
+}
+
+@article{protdesignsurvey2024,
+  title   = {Generative {AI} for Controllable Protein Sequence Design: A Survey},
+  journal = {arXiv preprint arXiv:2402.10516},
+  year    = {2024}
+}
+
+@article{pseudoppl2024,
+  title   = {Pseudo-perplexity as a measure for protein fitness estimation},
+  journal = {arXiv preprint arXiv:2407.07265},
+  year    = {2024}
+}
+
+@article{lafleur2022promoter,
+  author  = {LaFleur, Travis L. and Hossain, Ayaan and Salis, Howard M.},
+  title   = {Automated model-predictive design of synthetic promoters to control
+             transcriptional profiles in bacteria},
+  journal = {Nature Communications},
+  volume  = {13},
+  number  = {1},
+  pages   = {5159},
+  year    = {2022},
+  doi     = {10.1038/s41467-022-32829-5}
+}
+
+% ---- Models evaluated in the upstream-only benchmark --------------------
+% VERIFY: bibliographic details added during drafting -- confirm before camera-ready.
+@article{brixi2025evo2,
+  author  = {Brixi, Garyk and Durrant, Matthew G. and Ku, Jerome and others},
+  title   = {Genome modelling and design across all domains of life with {Evo 2}},
+  journal = {Nature},
+  volume  = {652},
+  pages   = {1349--1361},
+  year    = {2026},
+  doi     = {10.1038/s41586-026-10176-5}
+}
+
+@inproceedings{nguyen2023hyenadna,
+  author    = {Nguyen, Eric and Poli, Michael and Faizi, Marjan and Thomas,
+               Armin W. and Wornow, Michael and Birch-Sykes, Callum and
+               Massaroli, Stefano and Patel, Aman and Rabideau, Clayton and
+               Bengio, Yoshua and Ermon, Stefano and Baccus, Stephen A. and
+               R{\'e}, Christopher},
+  title     = {{HyenaDNA}: Long-Range Genomic Sequence Modeling at Single
+               Nucleotide Resolution},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {36},
+  year      = {2023},
+  doi       = {10.52202/075280-1872}
+}
+
+@article{promogen2,
+  author  = {Xia, Yan and Sun, Jinyuan and Du, Xiaowen and Liang, Zeyu and
+             Wu, Xin and Shi, Wenyu and Shao, Bin and Guo, Shuyuan and
+             Huo, Yi-Xin},
+  title   = {Design prokaryotic \emph{cis}-regulatory elements using language
+             model},
+  journal = {Nucleic Acids Research},
+  volume  = {54},
+  number  = {4},
+  pages   = {gkag122},
+  year    = {2026},
+  doi     = {10.1093/nar/gkag122}
+}
+
+@article{dufault2026c3p,
+  author  = {Dufault, Cameron and Xu, Scott and Moses, Alan M.},
+  title   = {{C3P}: Contrastive promoter-protein pretraining yields
+             representations capturing bacterial gene regulation},
+  journal = {arXiv preprint arXiv:2605.25242},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2605.25242}
+}
+
+@article{regulondb2024,
+  author  = {Salgado, Heladia and Gama-Castro, Socorro and Lara, Paloma and
+             others},
+  title   = {{RegulonDB} v12.0: a comprehensive resource of transcriptional
+             regulation in {E. coli} {K-12}},
+  journal = {Nucleic Acids Research},
+  volume  = {52},
+  number  = {D1},
+  pages   = {D255--D264},
+  year    = {2024},
+  doi     = {10.1093/nar/gkad1072}
+}
